@@ -1,6 +1,5 @@
 import { AboutMe } from '@/components/commons/Home/AboutMe';
 import { Projects } from '@/components/commons/Home/Projects';
-import { imageConfigDefault } from 'next/dist/shared/lib/image-config';
 import Head from 'next/head';
 
 const Home = () => {
