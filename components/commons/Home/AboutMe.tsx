@@ -22,7 +22,7 @@ export const AboutMe = () =>{
             </div>
             <ul className="flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:w-fit gap-3 text-xl">
                 <li style={{backgroundColor: '#4b8bbe', color:'#ffd43b'}} className="w-fit p-2 rounded-md">python</li>
-                <li style={{backgroundColor: '#EFD81D', color:'#000000'}} className="w-fit p-2 rounded-md">javaScript</li>
+                <li style={{backgroundColor: '#EFD81D', color:'#000000'}} className="w-fit p-2 rounded-md">javascript</li>
                 <li style={{backgroundColor: '#000000', color:'#FFFFFF'}} className="w-fit p-2 rounded-md">next.js</li>
                 <li style={{backgroundColor: '#EFD81D', color:'#000000'}} className="w-fit p-2 rounded-md">outro</li>
 
