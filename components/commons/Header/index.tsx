@@ -20,7 +20,7 @@ export const Header = () =>{
     },[])
 
     return(
-        <header className={`${roboto.className} bg-d-blue-500 text-sm flex py-3 px-5 justify-between itens-center sticky top-0 z-20`}>
+        <header className={`${roboto.className} bg-d-blue-500 text-sm flex py-3 px-7 justify-between itens-center sticky top-0 z-20`}>
 <Link href="/">
     <Image 
         src="/favicon.png"
@@ -32,7 +32,7 @@ export const Header = () =>{
 <button className="p-1 md:hidden" onClick={openMenu}>
     <MenuIcon className="fill-white w-10 h-10" />
 </button>
-<nav>
+<nav className="flex items-center">
 <nav className="hidden md:flex itens-center gap-10 text-md">
     <Link href="/">Sobre mim</Link>
     {/*<Link href="/portfolio">Portfolio</Link>*/}      

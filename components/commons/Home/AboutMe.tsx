@@ -9,7 +9,7 @@ const roboto = Roboto({
 
 export const AboutMe = () =>{
     return(
-        <main className="flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 text-lg text-center xl:text-left xl:flex-nowrap xl:justify-between">
+        <main className="flex flex-wrap-reverse justify-center items-center gap-10 md:gap-32 py-8 px-20 text-lg text-center xl:text-left xl:flex-nowrap xl:justify-between">
             <div className="text-white flex flex-col items-center xl:items-start gap-4 w-full xl:w-120">
                 <h1 className="text-3xl sm:text-7xl xl:leading-[80px]">Prazer, sou&nbsp;
                 <strong className="font-bold">Davi</strong>
